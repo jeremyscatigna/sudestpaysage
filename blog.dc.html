@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Blog – Conseils d'élagage et de jardinage sur la Côte d'Azur | Sud Est Paysage</title>
+<meta name="description" content="Conseils pratiques d'élagage, débroussaillement, réglementation et aménagement paysager pour le climat méditerranéen de la Côte d'Azur.">
+<link rel="canonical" href="https://www.sudestpaysage.fr/blog.dc.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>body{margin:0;background:#182720;font-family:'Work Sans',sans-serif;}a{color:inherit;text-decoration:none;}::selection{background:#b7a45c;color:#182720;}</style>
+</helmet>
+
+<div style="background:#182720;color:#f2efe6;min-height:100vh;">
+  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:20px {{ padH }};background:rgba(24,39,32,0.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,0.08);">
+    <a href="./index.dc.html" style="font-family:'Playfair Display',serif;font-size:22px;font-weight:600;">Sud Est <span style="color:#b7a45c;font-style:italic;">Paysage</span></a>
+    <nav style="display:{{ navDisplay }};align-items:center;gap:36px;">
+      <a href="./index.dc.html" style="font-size:15px;color:#cdd6c6;">Accueil</a>
+      <a href="./services.dc.html" style="font-size:15px;color:#cdd6c6;">Services</a>
+      <a href="./secteurs.dc.html" style="font-size:15px;color:#cdd6c6;">Secteurs</a>
+      <a href="./blog.dc.html" style="font-size:15px;color:#f2efe6;">Blog</a>
+      <a href="./contact.dc.html" style="font-size:15px;color:#cdd6c6;">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a href="./contact.dc.html" style="background:#b7a45c;color:#182720;padding:11px 22px;border-radius:2px;font-size:14px;font-weight:600;transition:transform .2s ease,box-shadow .2s ease;" style-hover="transform:translateY(-2px);box-shadow:0 10px 24px rgba(183,164,92,0.35);">Devis gratuit</a>
+      <button onClick="{{ toggleNav }}" style="display:{{ hbDisplay }};background:none;border:1px solid rgba(242,239,230,0.3);color:#f2efe6;font-size:19px;width:42px;height:42px;border-radius:2px;cursor:pointer;align-items:center;justify-content:center;">☰</button>
+    </div>
+  </header>
+  <sc-if value="{{ navOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;inset:0;z-index:100;background:#182720;display:flex;flex-direction:column;padding:28px 24px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:56px;">
+        <span style="font-family:'Playfair Display',serif;font-size:22px;font-weight:600;">Sud Est <span style="color:#b7a45c;font-style:italic;">Paysage</span></span>
+        <button onClick="{{ toggleNav }}" style="background:none;border:none;color:#f2efe6;font-size:30px;cursor:pointer;line-height:1;">×</button>
+      </div>
+      <nav style="display:flex;flex-direction:column;gap:30px;">
+        <a href="./index.dc.html" style="font-size:24px;color:#f2efe6;">Accueil</a>
+        <a href="./services.dc.html" style="font-size:24px;color:#f2efe6;">Services</a>
+        <a href="./secteurs.dc.html" style="font-size:24px;color:#f2efe6;">Secteurs</a>
+        <a href="./blog.dc.html" style="font-size:24px;color:#b7a45c;font-weight:600;">Blog</a>
+        <a href="./contact.dc.html" style="font-size:24px;color:#f2efe6;">Contact</a>
+      </nav>
+    </div>
+  </sc-if>
+
+  <section style="padding:88px {{ padH }} 56px;max-width:900px;margin:0 auto;text-align:center;">
+    <p style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#b7a45c;margin:0 0 16px;">Le blog</p>
+    <h1 style="font-family:'Playfair Display',serif;font-size:44px;font-weight:600;margin:0 0 22px;">Conseils d'élagage et de jardinage pour la Côte d'Azur</h1>
+    <p style="font-size:16px;line-height:1.8;color:#cdd6c6;margin:0;">Réglementation, entretien saisonnier et aménagement : nos conseils d'experts pour votre jardin méditerranéen.</p>
+  </section>
+
+  <section style="padding:0 {{ padH }} 32px;max-width:1180px;margin:0 auto;">
+    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      <sc-for list="{{ cats }}" as="c" hint-placeholder-count="6">
+        <button onClick="{{ c.select }}" style="background:{{ c.bg }};color:{{ c.fg }};border:1px solid rgba(242,239,230,0.2);padding:9px 18px;border-radius:20px;font-size:14px;font-family:'Work Sans',sans-serif;cursor:pointer;transition:all .2s ease;">{{ c.label }}</button>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="padding:0 {{ padH }} 100px;max-width:1180px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:{{ cols3 }};gap:36px;">
+      <sc-for list="{{ articles }}" as="a" hint-placeholder-count="6">
+        <a href="{{ a.href }}" style="display:block;transition:transform .25s ease;" style-hover="transform:translateY(-6px);">
+          <image-slot id="{{ a.imgId }}" src="{{ a.img }}" shape="rounded" radius="4" placeholder="{{ a.imgLabel }}" style="width:100%;height:210px;margin-bottom:22px;"></image-slot>
+          <p style="font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#b7a45c;margin:0 0 10px;">{{ a.cat }}</p>
+          <h2 style="font-family:'Playfair Display',serif;font-size:20px;font-weight:600;margin:0 0 12px;line-height:1.35;">{{ a.title }}</h2>
+          <p style="font-size:14px;color:#a9b8a3;margin:0;line-height:1.65;">{{ a.excerpt }}</p>
+        </a>
+      </sc-for>
+    </div>
+  </section>
+
+  <footer style="padding:56px {{ padH }} 32px;background:#121c16;text-align:center;">
+    <div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:600;margin-bottom:20px;">Sud Est <span style="color:#b7a45c;font-style:italic;">Paysage</span></div>
+    <div style="font-size:14px;color:#8fa088;">© 2026 Sud Est Paysage — Élagueur & paysagiste Côte d'Azur · <a href="mailto:sud-estpaysage@outlook.fr" style="color:#a9b8a3;">sud-estpaysage@outlook.fr</a></div>
+  </footer>
+  <a href="tel:+33688906614" aria-label="Appeler Sud Est Paysage" style="position:fixed;bottom:24px;right:24px;z-index:90;width:56px;height:56px;border-radius:50%;background:#b7a45c;color:#182720;display:flex;align-items:center;justify-content:center;font-size:24px;box-shadow:0 8px 24px rgba(0,0,0,0.35);transition:transform .2s ease;" style-hover="transform:scale(1.08);">📞</a>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { isMobile: false, navOpen: false, cat: 'Tous' };
+  selectCat = (c) => this.setState({ cat: c });
+  componentDidMount() {
+    const check = () => this.setState({ isMobile: window.innerWidth < 880 });
+    check();
+    window.addEventListener('resize', check);
+    this._check = check;
+  }
+  componentWillUnmount() { window.removeEventListener('resize', this._check); }
+  toggleNav = () => this.setState(s => ({ navOpen: !s.navOpen }));
+
+  renderVals() {
+    const isMobile = this.state.isMobile;
+    const respVals = { padH: isMobile ? '20px' : '48px', navDisplay: isMobile ? 'none' : 'flex', hbDisplay: isMobile ? 'flex' : 'none', navOpen: this.state.navOpen, toggleNav: this.toggleNav, cols3: isMobile ? '1fr' : 'repeat(3,minmax(0,1fr))' };
+    const all = [
+      {href:'./blog-elagage-quand-tailler.dc.html', img:'uploads/42D34E00-A2E8-42A7-8CB3-183E29458613.JPG', cat:'Élagage', title:"Quand tailler ses arbres sur la Côte d'Azur ?", excerpt:'Le bon moment selon les essences et le climat méditerranéen.'},
+      {href:'./blog-abattage-reglementation.dc.html', img:'uploads/644559291_26499439632995860_2771291973916633750_n.jpg', cat:'Réglementation', title:"Abattage d'arbre : quelles autorisations sont nécessaires ?", excerpt:"Ce qu'il faut savoir avant de faire abattre un arbre chez vous."},
+      {href:'./blog-debroussaillement-obligatoire.dc.html', img:'uploads/483853526_1182316820562336_587341099394586141_n.jpg', cat:'Réglementation', title:'Débroussaillement obligatoire : ce que dit la loi', excerpt:'Vos obligations légales dans les Alpes-Maritimes.'},
+      {href:'./blog-entretien-jardin-saisons.dc.html', img:'uploads/IMG_1916.JPG', cat:'Entretien', title:'Entretenir son jardin méditerranéen au fil des saisons', excerpt:"Le calendrier d'entretien idéal pour un jardin sur la Côte d'Azur."},
+      {href:'./blog-choisir-paysagiste-cote-azur.dc.html', img:'uploads/644426298_26499439752995848_1217604841489713409_n.jpg', cat:'Conseils', title:'Comment bien choisir son élagueur-paysagiste ?', excerpt:'Les critères essentiels : assurance, certification et devis.'},
+      {href:'./blog-amenagement-jardin-mediterraneen.dc.html', img:'uploads/380481660_796999979094024_8751569966035862200_n.jpg', cat:'Aménagement', title:'Créer un jardin méditerranéen économe en eau', excerpt:'Les essences et techniques adaptées au climat azuréen.'},
+      {href:'./blog-taille-palmier-cote-azur.dc.html', img:'uploads/642289903_26485474724392351_3981306662353751541_n.jpg', cat:'Élagage', title:"Taille de palmier sur la Côte d'Azur : guide complet", excerpt:'Quand tailler, prévenir le charançon rouge et entretenir vos palmiers.'},
+      {href:'./blog-olivier-taille-entretien.dc.html', img:'uploads/644438731_26499440366329120_4747082574501618576_n.jpg', cat:'Élagage', title:"Tailler et entretenir un olivier en Provence-Côte d'Azur", excerpt:'Période, technique et conseils pour favoriser la fructification.'},
+      {href:'./blog-arbre-dangereux-que-faire.dc.html', img:'uploads/IMG_1856.JPG', cat:'Sécurité', title:'Arbre dangereux : comment réagir et qui appeler ?', excerpt:'Reconnaître un arbre à risque et savoir quand intervenir en urgence.'},
+      {href:'./blog-jardin-sans-arrosage-mediterraneen.dc.html', img:'uploads/IMG_0106.jpg', cat:'Aménagement', title:"Créer un jardin sec sans arrosage sur la Côte d'Azur", excerpt:'Plantes, paillage et techniques pour un jardin quasi sans eau.'},
+      {href:'./blog-haie-quelles-essences-choisir.dc.html', img:'uploads/380481660_796999979094024_8751569966035862200_n.jpg', cat:'Aménagement', title:"Quelle haie planter sur la Côte d'Azur ?", excerpt:'Les meilleures essences adaptées au climat méditerranéen.'},
+      {href:'./blog-evacuation-dechets-verts.dc.html', img:'uploads/483853526_1182316820562336_587341099394586141_n.jpg', cat:'Entretien', title:"Que faire de ses déchets verts sur la Côte d'Azur ?", excerpt:'Brûlage interdit, déchèterie, broyage : les solutions légales.'},
+      {href:'./blog-prix-elagage-arbre.dc.html', img:'uploads/42D34E00-A2E8-42A7-8CB3-183E29458613.JPG', cat:'Conseils', title:"Prix d'un élagage : quels critères font varier le devis ?", excerpt:'Comprendre les facteurs qui influencent le coût des travaux.'},
+      {href:'./blog-quand-faire-debroussailler.dc.html', img:'uploads/483853526_1182316820562336_587341099394586141_n.jpg', cat:'Réglementation', title:'Débroussaillage : à quelle période faire les travaux ?', excerpt:'Le meilleur moment avant la saison des incendies.'},
+      {href:'./blog-especes-invasives-jardin.dc.html', img:'uploads/IMG_1916.JPG', cat:'Conseils', title:"Plantes invasives sur la Côte d'Azur : les gérer", excerpt:'Mimosa, canne de Provence, herbe de la pampa : que faire ?'},
+      {href:'./blog-entretien-jardin-copropriete.dc.html', img:'uploads/644426298_26499439752995848_1217604841489713409_n.jpg', cat:'Entretien', title:'Entretien des espaces verts en copropriété', excerpt:'Contrat, élagage et débroussaillement des parties communes.'},
+      {href:'./blog-planter-arbre-quand-comment.dc.html', img:'uploads/380481660_796999979094024_8751569966035862200_n.jpg', cat:'Aménagement', title:"Quand et comment planter un arbre sur la Côte d'Azur ?", excerpt:'La bonne période et les bons gestes pour une reprise durable.'},
+      {href:'./blog-maladie-arbres-mediterraneens.dc.html', img:'uploads/IMG_1856.JPG', cat:'Conseils', title:'Maladies des arbres méditerranéens : prévenir et traiter', excerpt:'Chancre du platane, dépérissement du cyprès, charançon.'},
+      {href:'./blog-amenagement-terrain-pente.dc.html', img:'uploads/IMG_0106.jpg', cat:'Aménagement', title:"Aménager un terrain en pente sur la Côte d'Azur", excerpt:'Restanques, murets et plantations pour sécuriser et embellir.'},
+      {href:'./blog-calendrier-jardin-mois-par-mois.dc.html', img:'uploads/IMG_1916.JPG', cat:'Entretien', title:'Calendrier du jardin méditerranéen mois par mois', excerpt:'Taille, plantation, arrosage : les rendez-vous de l\'année.'},
+      {href:'./blog-securite-elagage-hauteur.dc.html', img:'uploads/644559291_26499439632995860_2771291973916633750_n.jpg', cat:'Sécurité', title:'Élagage en hauteur : pourquoi ne pas le faire soi-même', excerpt:'Les risques et l\'intérêt d\'un élagueur grimpeur assuré.'},
+      {href:'./blog-gazon-ou-alternative-mediterranee.dc.html', img:'uploads/380481660_796999979094024_8751569966035862200_n.jpg', cat:'Aménagement', title:"Gazon sur la Côte d'Azur : bonne idée ou alternatives ?", excerpt:'Couvre-sols résistants pour un rendu vert sans l\'entretien.'},
+      {href:'./blog-arbres-ombre-jardin-azur.dc.html', img:'uploads/IMG_0085.jpg', cat:'Aménagement', title:"Quels arbres planter pour de l'ombre sur la Côte d'Azur ?", excerpt:'Les meilleurs arbres d\'ombrage économes en eau.'},
+      {href:'./blog-reglementation-plantation-limite.dc.html', img:'uploads/IMG_1916.JPG', cat:'Réglementation', title:'Distances de plantation : que dit la loi entre voisins ?', excerpt:'Distances légales, droit d\'élagage et litiges de voisinage.'},
+      {href:'./blog-preparer-jardin-ete-canicule.dc.html', img:'uploads/IMG_0106.jpg', cat:'Entretien', title:"Préparer son jardin à la canicule sur la Côte d'Azur", excerpt:'Arrosage, paillage et ombrage face aux fortes chaleurs.'},
+      {href:'./blog-choisir-entreprise-paysagiste.dc.html', img:'uploads/644426298_26499439752995848_1217604841489713409_n.jpg', cat:'Conseils', title:'5 critères pour choisir une entreprise de paysagisme fiable', excerpt:'Assurance, références, devis, matériel : le bon choix.'},
+    ].map((a,i)=>({...a, imgId:'ba'+i, imgLabel:'Photo : '+a.cat}));
+    const cur = this.state.cat;
+    const articles = cur === 'Tous' ? all : all.filter(a => a.cat === cur);
+    const catNames = ['Tous','Élagage','Abattage','Débroussaillage','Aménagement','Entretien','Réglementation','Sécurité','Conseils'];
+    const present = catNames.filter(c => c === 'Tous' || all.some(a => a.cat === c));
+    const cats = present.map(c => ({ label: c, select: () => this.selectCat(c), bg: c === cur ? '#b7a45c' : 'transparent', fg: c === cur ? '#182720' : '#cdd6c6' }));
+    return { ...respVals, articles, cats };
+  }
+}
+</script>
+</body>
+</html>
