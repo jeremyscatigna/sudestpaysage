@@ -108,15 +108,32 @@ export default function HomePage() {
       </Section>
 
       {/* ---------------------------------------------------------- fondateur */}
-      <Section id="fondateur" tone="mid" width="narrow">
-        <Eyebrow>{founder.eyebrow}</Eyebrow>
-        <SectionTitle className="mb-6">{founder.h2}</SectionTitle>
-        <Prose paras={founder.paras} />
-        <div className="mt-9 flex flex-col gap-1 border-l-2 border-gold pl-4.5">
-          <span className="font-display text-[19px] font-semibold text-sage-100">
-            {founder.name}
-          </span>
-          <span className="text-sm text-sage-600">{founder.role}</span>
+      <Section id="fondateur" tone="mid">
+        <div className="grid items-start gap-10 lg:grid-cols-[1.35fr_1fr] lg:gap-16">
+          <div>
+            <Eyebrow>{founder.eyebrow}</Eyebrow>
+            <SectionTitle className="mb-6">{founder.h2}</SectionTitle>
+            <Prose paras={founder.paras} />
+            <div className="mt-9 flex flex-col gap-1 border-l-2 border-gold pl-4.5">
+              <span className="font-display text-[19px] font-semibold text-sage-100">
+                {founder.name}
+              </span>
+              <span className="text-sm text-sage-600">{founder.role}</span>
+            </div>
+          </div>
+          {/* Le fichier source ne fait que 601 px de large : on cadre l'image
+              plutôt que de l'étirer sur une demi-page, où elle serait floue. */}
+          <figure className="mx-auto w-full max-w-110 lg:sticky lg:top-28">
+            <Photo
+              src={founder.image}
+              alt={founder.imageAlt}
+              sizes="(min-width: 1024px) 440px, (min-width: 640px) 440px, 100vw"
+              className="aspect-square"
+            />
+            <figcaption className="mt-3 text-[13px] leading-relaxed text-sage-600">
+              {founder.name} en intervention sur un pin — élagage en accès corde.
+            </figcaption>
+          </figure>
         </div>
       </Section>
 

@@ -180,6 +180,7 @@ export const home = {
   ...homeJson,
   hero: { ...homeJson.hero, bgImage: asPublicPath(homeJson.hero.bgImage) },
   about: { ...homeJson.about, image: asPublicPath(homeJson.about.image) },
+  founder: { ...homeJson.founder, image: asPublicPath(homeJson.founder.image) },
 };
 
 /* ------------------------------------------------------------- accueil / divers */
