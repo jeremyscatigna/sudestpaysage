@@ -1,0 +1,305 @@
+{
+ "SERVICES_DETAIL": [
+  {
+   "id": "elagage",
+   "num": "01",
+   "title": "Élagage",
+   "imgId": "sv-elagage",
+   "img": "uploads/644438731_26499440366329120_4747082574501618576_n.jpg",
+   "imgLabel": "Photo : élagage d'un pin",
+   "desc": "L'élagage consiste à tailler les branches d'un arbre pour préserver sa santé, sa sécurité et son esthétique. Sur la Côte d'Azur, nos équipes interviennent sur pins, oliviers, palmiers, eucalyptus et toutes essences méditerranéennes.",
+   "points": [
+    "Taille de sécurité et d'entretien",
+    "Élagage de palmiers en hauteur",
+    "Réduction de couronne",
+    "Intervention en zone urbaine et privée"
+   ]
+  },
+  {
+   "id": "abattage",
+   "num": "02",
+   "title": "Abattage",
+   "imgId": "sv-abattage",
+   "img": "uploads/IMG_1856.JPG",
+   "imgLabel": "Photo : abattage sécurisé",
+   "desc": "Lorsqu'un arbre est malade, dangereux ou mal placé, nous procédons à son abattage dans le respect des règles de sécurité, y compris en démontage par tronçons en zone difficile d'accès.",
+   "points": [
+    "Abattage classique ou par démontage",
+    "Dessouchage et évacuation",
+    "Intervention près des habitations et réseaux",
+    "Diagnostic phytosanitaire préalable"
+   ]
+  },
+  {
+   "id": "debroussaillage",
+   "num": "03",
+   "title": "Débroussaillage",
+   "imgId": "sv-debrous",
+   "img": "uploads/483853526_1182316820562336_587341099394586141_n.jpg",
+   "imgLabel": "Photo : débroussaillage de terrain",
+   "desc": "Dans les Alpes-Maritimes, le débroussaillement relève de l'Obligation Légale de Débroussaillement (OLD) : elle s'impose au propriétaire dès que son terrain se situe dans ou à moins de 200 m d'un espace boisé. Nous nettoyons terrains, talus et sous-bois aux distances réglementaires.",
+   "points": [
+    "Obligation Légale de Débroussaillement (OLD)",
+    "50 m autour des constructions, 10 m le long des accès privés",
+    "Nettoyage de terrains en friche",
+    "Broyage et évacuation des déchets verts",
+    "Entretien régulier de terrains en pente"
+   ]
+  },
+  {
+   "id": "amenagement",
+   "num": "04",
+   "title": "Aménagement paysager",
+   "imgId": "sv-amenag",
+   "img": "uploads/380481660_796999979094024_8751569966035862200_n.jpg",
+   "imgLabel": "Photo : aménagement paysager",
+   "desc": "Nous concevons et réalisons des espaces extérieurs adaptés au climat méditerranéen : terrasses végétalisées, massifs, systèmes d'arrosage économes et plantations résistantes à la sécheresse.",
+   "points": [
+    "Conception de plans paysagers",
+    "Plantation d'essences méditerranéennes",
+    "Installation d'arrosage automatique",
+    "Aménagement de terrasses et massifs"
+   ]
+  },
+  {
+   "id": "taille-haies",
+   "num": "05",
+   "title": "Taille de haies",
+   "imgId": "sv-haies",
+   "img": "uploads/642289903_26485474724392351_3981306662353751541_n.jpg",
+   "imgLabel": "Photo : taille de haie soignée",
+   "desc": "Une haie bien entretenue structure un jardin et préserve l'intimité. Nous assurons la taille régulière de haies de toutes tailles et essences, du laurier au cyprès.",
+   "points": [
+    "Taille de formation et d'entretien",
+    "Haies hautes et difficiles d'accès",
+    "Passage régulier ou ponctuel",
+    "Évacuation des déchets de taille"
+   ]
+  },
+  {
+   "id": "creation-jardin",
+   "num": "06",
+   "title": "Création de jardin",
+   "imgId": "sv-creation",
+   "img": "uploads/IMG_0106.jpg",
+   "imgLabel": "Photo : jardin nouvellement créé",
+   "desc": "De la terre nue au jardin abouti : étude du terrain, choix des végétaux, plantation et finitions. Nous créons des jardins pensés pour le climat azuréen et pour durer.",
+   "points": [
+    "Étude de sol et de terrain",
+    "Choix de végétaux adaptés",
+    "Plantation et engazonnement",
+    "Suivi après plantation"
+   ]
+  },
+  {
+   "id": "traitement-phytosanitaire",
+   "num": "07",
+   "title": "Traitement des palmiers, pelouses et oliviers",
+   "imgId": "sv-traitement",
+   "img": "uploads/644426298_26499439752995848_1217604841489713409_n.jpg",
+   "imgLabel": "Photo : traitement phytosanitaire en hauteur",
+   "desc": "Un ravageur ou une maladie fongique peut condamner un palmier, un olivier ou une pelouse en une seule saison. Nous réalisons le diagnostic, le traitement curatif et le suivi préventif de vos végétaux : papillon du palmier, charançon rouge, fusariose, maladies du gazon (pythium, fil rouge, rouille), noctuelles et larves du sol, mouche de l'olive, œil de paon et cochenilles.",
+   "points": [
+    "Palmiers : papillon du palmier (Paysandisia archon) et charançon rouge",
+    "Maladies fongiques : fusariose du palmier, œil de paon, oïdium, chancres",
+    "Pelouses : pythium, fil rouge, rouille, fusariose froide",
+    "Ravageurs du gazon : noctuelles, larves de hanneton et de tipule",
+    "Oliviers : mouche de l'olive, cochenille noire, teigne, fumagine",
+    "Diagnostic phytosanitaire, traitement curatif et programme préventif",
+    "Solutions de biocontrôle autorisées en JEVI (loi Labbé)"
+   ]
+  }
+ ],
+ "FAQ": [
+  {
+   "question": "Le devis est-il vraiment gratuit ?",
+   "answer": "Oui, le déplacement et le devis sont entièrement gratuits et sans engagement, partout sur la Côte d'Azur. Nous répondons sous 24h."
+  },
+  {
+   "question": "Êtes-vous assurés pour les travaux en hauteur ?",
+   "answer": "Oui, Sud Est Paysage dispose d'une assurance responsabilité civile professionnelle couvrant l'ensemble de nos interventions : élagage, abattage et travaux en hauteur."
+  },
+  {
+   "question": "Évacuez-vous les déchets verts après le chantier ?",
+   "answer": "Oui, l'évacuation et le traitement des branches, troncs et végétaux coupés sont inclus dans nos prestations. Votre terrain est rendu propre."
+  },
+  {
+   "question": "Intervenez-vous en urgence après une tempête ?",
+   "answer": "Oui, nous intervenons rapidement pour sécuriser les arbres dangereux ou tombés après un épisode de vent ou d'intempéries. Appelez-nous directement au 06 88 90 66 14."
+  },
+  {
+   "question": "Le débroussaillement est-il obligatoire chez moi ?",
+   "answer": "Dans les Alpes-Maritimes, le critère est l'Obligation Légale de Débroussaillement (OLD) : elle s'applique dès que votre terrain se situe dans ou à moins de 200 m d'un espace boisé. Les travaux portent sur 50 m autour des constructions — distance pouvant être portée à 100 m par le maire — et sur 10 m de part et d'autre des voies d'accès privées. Nous vérifions votre situation et réalisons les travaux aux distances réglementaires."
+  },
+  {
+   "question": "Traitez-vous le papillon du palmier et le charançon rouge ?",
+   "answer": "Oui. Nous intervenons sur le papillon du palmier (Paysandisia archon) et sur le charançon rouge (Rhynchophorus ferrugineus) : diagnostic, assainissement de la couronne, applications préventives et curatives, puis suivi dans la saison. Le charançon rouge étant un organisme nuisible réglementé, tout foyer doit être déclaré aux services compétents — nous vous accompagnons dans cette démarche."
+  },
+  {
+   "question": "Mon gazon présente des taches et des filaments rouges : que faire ?",
+   "answer": "Il s'agit le plus souvent d'une maladie fongique du gazon : fil rouge, pythium, rouille ou fusariose froide. Ces maladies sont presque toujours favorisées par un excès d'humidité, un sol compacté ou une fertilisation déséquilibrée. Nous identifions la maladie, corrigeons les pratiques culturales (aération, hauteur de tonte, arrosage, fertilisation) et appliquons le traitement adapté."
+  },
+  {
+   "question": "Quand faut-il traiter un olivier ?",
+   "answer": "La surveillance de la mouche de l'olive commence en début d'été, dès le durcissement du noyau, avec pose de pièges. L'œil de paon se traite plutôt à l'automne et en fin d'hiver, et la cochenille noire au printemps. Nous établissons un calendrier de traitement adapté à vos arbres."
+  },
+  {
+   "question": "Quelle est la meilleure période pour élaguer ?",
+   "answer": "Cela dépend de l'essence : hiver pour les feuillus, fin d'été pour les palmiers, fin d'hiver pour les oliviers. Nous vous conseillons lors du devis."
+  }
+ ],
+ "HOME_SERVICE_CARDS": [
+  {
+   "num": "01",
+   "title": "Élagage",
+   "desc": "Taille raisonnée des arbres pour la sécurité, la santé et l'esthétique.",
+   "href": "./services.dc.html#elagage"
+  },
+  {
+   "num": "02",
+   "title": "Abattage",
+   "desc": "Abattage sécurisé, y compris en zone difficile ou proche des habitations.",
+   "href": "./services.dc.html#abattage"
+  },
+  {
+   "num": "03",
+   "title": "Débroussaillage",
+   "desc": "Débroussaillement légal et prévention incendie autour de votre propriété.",
+   "href": "./services.dc.html#debroussaillage"
+  },
+  {
+   "num": "04",
+   "title": "Aménagement paysager",
+   "desc": "Conception et réalisation de jardins adaptés au climat méditerranéen.",
+   "href": "./services.dc.html#amenagement"
+  },
+  {
+   "num": "05",
+   "title": "Taille de haies",
+   "desc": "Mise en forme et entretien régulier de vos haies toute l'année.",
+   "href": "./services.dc.html#taille-haies"
+  },
+  {
+   "num": "06",
+   "title": "Création de jardin",
+   "desc": "De la conception à la plantation, un jardin pensé pour durer.",
+   "href": "./services.dc.html#creation-jardin"
+  },
+  {
+   "num": "07",
+   "title": "Traitement des palmiers, pelouses et oliviers",
+   "desc": "Papillon du palmier, charançon rouge, fusariose, maladies du gazon (pythium, fil rouge, rouille), noctuelles, mouche de l'olive : diagnostic, traitement curatif et suivi préventif de vos végétaux.",
+   "href": "./traitement-phytosanitaire.dc.html"
+  }
+ ],
+ "GALLERY": [
+  {
+   "id": "g1",
+   "label": "Photo : élagage de pin",
+   "img": "uploads/42D34E00-A2E8-42A7-8CB3-183E29458613.JPG"
+  },
+  {
+   "id": "g2",
+   "label": "Photo : abattage sécurisé",
+   "img": "uploads/IMG_1856.JPG"
+  },
+  {
+   "id": "g3",
+   "label": "Photo : débroussaillage terrain",
+   "img": "uploads/483853526_1182316820562336_587341099394586141_n.jpg"
+  },
+  {
+   "id": "g4",
+   "label": "Photo : jardin méditerranéen aménagé",
+   "img": "uploads/380481660_796999979094024_8751569966035862200_n.jpg"
+  },
+  {
+   "id": "g5",
+   "label": "Photo : taille en hauteur",
+   "img": "uploads/644426298_26499439752995848_1217604841489713409_n.jpg"
+  },
+  {
+   "id": "g6",
+   "label": "Photo : création de jardin",
+   "img": "uploads/IMG_1916.JPG"
+  }
+ ],
+ "VILLES_APERCU": [
+  "Nice",
+  "Cannes",
+  "Antibes",
+  "Grasse",
+  "La Gaude",
+  "Saint-Jeannet",
+  "Gattières",
+  "Vence",
+  "Mougins",
+  "Cagnes-sur-Mer",
+  "Valbonne",
+  "Menton"
+ ],
+ "BLOG_TEASER": [
+  {
+   "href": "./blog-elagage-quand-tailler.dc.html",
+   "imgId": "bt1",
+   "img": "uploads/38287564_2040493745983789_7041369191235977216_n.jpg",
+   "imgLabel": "Photo : élagage de saison",
+   "cat": "Élagage",
+   "title": "Quand tailler ses arbres sur la Côte d'Azur ?",
+   "excerpt": "Le bon moment selon les essences et le climat méditerranéen."
+  },
+  {
+   "href": "./blog-debroussaillement-obligatoire.dc.html",
+   "imgId": "bt2",
+   "img": "uploads/483853526_1182316820562336_587341099394586141_n.jpg",
+   "imgLabel": "Photo : débroussaillement",
+   "cat": "Réglementation",
+   "title": "Débroussaillement obligatoire : ce que dit la loi",
+   "excerpt": "Vos obligations légales dans les Alpes-Maritimes."
+  },
+  {
+   "href": "./blog-amenagement-jardin-mediterraneen.dc.html",
+   "imgId": "bt3",
+   "img": "uploads/IMG_0106.jpg",
+   "imgLabel": "Photo : jardin méditerranéen",
+   "cat": "Aménagement",
+   "title": "Créer un jardin méditerranéen économe en eau",
+   "excerpt": "Les essences et techniques adaptées au climat azuréen."
+  }
+ ],
+ "AVIS": [
+  {
+   "texte": "« Intervention rapide et très professionnelle pour l'élagage de nos deux grands pins. Chantier laissé impeccable. Je recommande vivement. »",
+   "nom": "Marie L.",
+   "ville": "La Gaude"
+  },
+  {
+   "texte": "« Abattage d'un eucalyptus dangereux près de la maison, réalisé avec un vrai savoir-faire et en toute sécurité. Devis clair et respecté. »",
+   "nom": "Jean-Pierre R.",
+   "ville": "Saint-Jeannet"
+  },
+  {
+   "texte": "« Ils ont transformé notre jardin en un magnifique espace méditerranéen économe en eau. Équipe à l'écoute du début à la fin. »",
+   "nom": "Sophie M.",
+   "ville": "Vence"
+  }
+ ],
+ "BADGES": [
+  {
+   "titre": "Assuré",
+   "sous": "Responsabilité civile pro"
+  },
+  {
+   "titre": "Devis 24h",
+   "sous": "Gratuit et sans engagement"
+  },
+  {
+   "titre": "Local",
+   "sous": "Basé dans les Alpes-Maritimes"
+  },
+  {
+   "titre": "Propreté",
+   "sous": "Évacuation des déchets incluse"
+  }
+ ]
+}

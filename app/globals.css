@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  /* Verts profonds — fonds */
+  --color-forest-950: #121c16;
+  --color-forest-900: #182720;
+  --color-forest-800: #1c2b21;
+  --color-forest-700: #1e2f25;
+  --color-forest-600: #21332a;
+  --color-forest-500: #2a3f31;
+
+  /* Crème — sections claires */
+  --color-cream: #f4f1e8;
+
+  /* Or — accent de marque */
+  --color-gold: #b7a45c;
+  --color-gold-dark: #a99a55;
+
+  /* Textes sur fond sombre */
+  --color-sage-100: #f2efe6;
+  --color-sage-200: #e2e6da;
+  --color-sage-300: #dfe4d9;
+  --color-sage-400: #d8ddd0;
+  --color-sage-500: #cdd6c6;
+  --color-sage-600: #a9b8a3;
+  --color-sage-700: #8fa088;
+  --color-sage-800: #6f8069;
+
+  /* Textes sur fond crème */
+  --color-ink-900: #1e2b21;
+  --color-ink-700: #3a4a39;
+  --color-ink-600: #4a5a49;
+  --color-ink-500: #5c7a52;
+  --color-ink-400: #7a8a72;
+
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-work-sans), system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* compense le header sticky lors d'une navigation par ancre */
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    background-color: var(--color-forest-900);
+    color: var(--color-sage-100);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-gold);
+    color: var(--color-forest-900);
+  }
+
+  /* Anneau de focus visible et cohérent sur toute la marque */
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* L'anneau or (#b7a45c) ne donne que 2,19:1 sur crème et 2,48:1 sur blanc :
+     sous le seuil AA de 3:1 pour un indicateur non textuel. On le fonce dans
+     ces contextes clairs (ink-900 : 13,1:1 sur crème, 14,8:1 sur blanc). */
+  :is(.bg-cream, .bg-white) :focus-visible {
+    outline-color: var(--color-ink-900);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility container-page {
+  margin-inline: auto;
+  max-width: 1180px;
+}

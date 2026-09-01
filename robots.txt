@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /mentions-legales.dc.html
-Disallow: /confidentialite.dc.html
-
-Sitemap: https://www.sudestpaysage.fr/sitemap.xml

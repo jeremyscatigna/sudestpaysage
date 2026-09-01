@@ -1,0 +1,56 @@
+{
+ "hero": {
+  "eyebrow": "Élagueur · Jardinier · Paysagiste — Côte d'Azur",
+  "h1": "Des jardins et espaces verts sublimés, d'Antibes à Menton.",
+  "lead": "Élagage, abattage, débroussaillage et aménagement paysager par des professionnels qui connaissent le climat et la végétation méditerranéenne. Intervention rapide sur toute la Côte d'Azur.",
+  "bgImage": "uploads/IMG_0085.jpg",
+  "stats": [
+   {
+    "value": "24h",
+    "label": "Réponse devis"
+   },
+   {
+    "value": "15+",
+    "label": "Villes couvertes"
+   },
+   {
+    "value": "Assuré",
+    "label": "Responsabilité décennale"
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "Qui sommes-nous",
+  "h2": "Une équipe de paysagistes passionnés, ancrée sur la Côte d'Azur",
+  "paras": [
+   "Sud Est Paysage intervient depuis plusieurs années auprès des particuliers, syndics et professionnels de la région pour l'entretien, la sécurisation et la valorisation de leurs espaces verts.",
+   "Nous maîtrisons les techniques d'élagage raisonné, d'abattage sécurisé et de création de jardins adaptés au climat méditerranéen — pins, oliviers, palmiers, essences locales."
+  ],
+  "image": "uploads/644438731_26499440366329120_4747082574501618576_n.jpg"
+ },
+ "founder": {
+  "eyebrow": "Le fondateur",
+  "h2": "Jimmy Sahm, fondateur de Sud Est Paysage",
+  "paras": [
+   "Sud Est Paysage a été fondée par Jimmy Sahm, professionnel du végétal et homme de terrain. L'entreprise s'est construite autour d'une conviction simple : sur la Côte d'Azur, un jardin ne se travaille pas comme ailleurs. Le climat, la sécheresse, les terrains en restanques et les essences méditerranéennes imposent leurs propres règles.",
+   "Cette exigence guide encore la façon de travailler de l'équipe : comprendre l'arbre et le sol avant d'intervenir, préférer la taille raisonnée à la coupe rapide, identifier une maladie avant de traiter — et rendre un chantier propre, sans exception.",
+   "Autour du fondateur, une équipe d'élagueurs-grimpeurs et de jardiniers intervient sur l'ensemble des Alpes-Maritimes, avec un interlocuteur unique du premier rendez-vous à la fin des travaux."
+  ],
+  "name": "Jimmy Sahm",
+  "role": "Fondateur & dirigeant — Sud Est Paysage"
+ },
+ "sections": {
+  "servicesEyebrow": "Nos prestations",
+  "servicesH2": "Tous les services d'un paysagiste-élagueur",
+  "galleryEyebrow": "Nos réalisations",
+  "galleryH2": "Des chantiers réalisés sur toute la région",
+  "avisEyebrow": "Ils nous font confiance",
+  "avisH2": "Avis de nos clients",
+  "zoneEyebrow": "Zone d'intervention",
+  "zoneH2": "Élagueur et paysagiste dans toute la Côte d'Azur",
+  "blogEyebrow": "Le blog",
+  "blogH2": "Conseils d'élagage et de jardinage pour le climat azuréen",
+  "ctaH2": "Un projet d'élagage ou d'aménagement ?",
+  "ctaLead": "Recevez un devis gratuit et sans engagement sous 24h."
+ }
+}

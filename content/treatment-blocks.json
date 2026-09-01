@@ -1,0 +1,161 @@
+{
+ "blocks": [
+  {
+   "id": "palmiers",
+   "num": "01",
+   "bg": "#182720",
+   "title": "Traitement des palmiers",
+   "imgId": "tr-palmiers",
+   "img": "uploads/644426298_26499439752995848_1217604841489713409_n.jpg",
+   "imgLabel": "Photo : intervention en hauteur sur un palmier",
+   "intro": "Le palmier est l'arbre emblématique de la Côte d'Azur et le plus menacé. Deux insectes ravageurs — le papillon du palmier et le charançon rouge — creusent le stipe et le cœur de l'arbre sans signe visible pendant des mois. Quand la couronne s'affaisse, il est souvent trop tard.",
+   "intro2": "La prévention est donc l'essentiel du travail : traitements positionnés sur les périodes de vol, assainissement de la couronne à chaque taille, désinfection des outils entre deux palmiers pour ne pas transmettre la fusariose. Nous intervenons sur Phoenix canariensis, Phoenix dactylifera, Washingtonia, Trachycarpus et Chamaerops.",
+   "items": [
+    {
+     "nom": "Papillon du palmier",
+     "latin": "Paysandisia archon",
+     "symptomes": "Palmes perforées de trous alignés et régulièrement espacés, sciure blanchâtre à la base des palmes, cocons soyeux dans la couronne, palmes centrales rongées puis dessèchement du cœur.",
+     "traitement": "Assainissement de la couronne, applications ciblées au cœur et à la base des palmes, traitements renouvelés au printemps et à l'automne en fonction des périodes de vol, contrôle des palmiers voisins."
+    },
+    {
+     "nom": "Charançon rouge du palmier",
+     "latin": "Rhynchophorus ferrugineus",
+     "symptomes": "Palmes centrales affaissées en éventail asymétrique, odeur de fermentation, galeries et cocons fibreux dans le stipe, effondrement rapide de la couronne.",
+     "traitement": "Organisme réglementé : signalement du foyer obligatoire. Diagnostic, assainissement mécanique, traitement curatif du sujet récupérable et protection préventive des palmiers voisins ; abattage et destruction encadrés si l'arbre est condamné."
+    },
+    {
+     "nom": "Fusariose du palmier",
+     "latin": "Fusarium oxysporum",
+     "symptomes": "Dessèchement asymétrique caractéristique : une moitié de palme sèche tandis que l'autre reste verte, nervure centrale brunie, déclin progressif de l'arbre sur une à deux saisons.",
+     "traitement": "Aucun traitement curatif n'existe : nous limitons la propagation par désinfection systématique des outils entre chaque palmier, retrait et élimination des palmes atteintes, et surveillance des sujets voisins."
+    },
+    {
+     "nom": "Pourriture du cœur",
+     "latin": "Phytophthora, Thielaviopsis spp.",
+     "symptomes": "Cœur mou et nauséabond, palmes centrales qui se détachent d'une simple traction, suintements bruns sur le stipe — souvent après un excès d'eau, un hiver humide ou une blessure de taille.",
+     "traitement": "Assèchement et assainissement du cœur, traitement fongicide autorisé en JEVI, puis correction des causes : drainage, réglage de l'arrosage, protection des plaies de taille."
+    }
+   ]
+  },
+  {
+   "id": "pelouses",
+   "num": "02",
+   "bg": "#1e2f25",
+   "title": "Maladies et ravageurs de la pelouse",
+   "imgId": "tr-pelouse",
+   "img": "uploads/380481660_796999979094024_8751569966035862200_n.jpg",
+   "imgLabel": "Photo : pelouse et jardin entretenus",
+   "intro": "Sur la Côte d'Azur, une pelouse vit sous contrainte permanente : chaleur, arrosage automatique le soir, sol tassé par le passage, tonte trop courte en été. Ces conditions favorisent les champignons — pythium, fil rouge, rouille, fusariose froide — et les ravageurs du sol qui coupent le gazon à la base.",
+   "intro2": "Une plaque jaune n'est jamais un diagnostic en soi. Nous prélevons, identifions la maladie ou le ravageur, corrigeons les pratiques culturales qui l'entretiennent, puis traitons. Sans cette correction, la maladie revient à la saison suivante.",
+   "items": [
+    {
+     "nom": "Pythium",
+     "latin": "Pythium spp.",
+     "symptomes": "Plages graisseuses de quelques centimètres à plusieurs mètres, brins collés entre eux, mycélium cotonneux blanc visible au petit matin. Progresse très vite par temps chaud et humide, souvent en traînées le long du passage de la tondeuse.",
+     "traitement": "Arrêt immédiat de l'arrosage du soir, aération et décompactage, réduction de la fertilisation azotée, traitement fongicide autorisé et désinfection du matériel de tonte pour stopper la diffusion."
+    },
+    {
+     "nom": "Fil rouge",
+     "latin": "Laetisaria fuciformis",
+     "symptomes": "Taches rosées à rougeâtres de 5 à 50 cm, fins filaments rouges séchés emmêlés entre les brins, feuilles décolorées du sommet vers la base. Typique des gazons carencés en azote, par temps frais et humide.",
+     "traitement": "Rééquilibrage de la fertilisation azotée — souvent suffisant à lui seul —, arrosage reporté au matin pour raccourcir l'humidité foliaire, aération du sol, puis traitement fongicide si l'attaque persiste."
+    },
+    {
+     "nom": "Rouille",
+     "latin": "Puccinia spp.",
+     "symptomes": "Pustules orangées à brunes sur les feuilles, qui tachent les chaussures et le matériel ; gazon terne, clairsemé et affaibli en fin d'été et en automne.",
+     "traitement": "Relance de la fertilisation, tonte plus fréquente avec ramassage et évacuation des déchets, arrosage matinal, traitement en cas de forte attaque."
+    },
+    {
+     "nom": "Fusariose froide",
+     "latin": "Microdochium nivale",
+     "symptomes": "Taches circulaires brun-rougeâtre devenant beiges, bordées d'un liseré grisâtre, apparaissant en automne et en hiver sur gazon humide et feutré.",
+     "traitement": "Scarification du feutre, aération, arrêt des apports azotés tardifs, drainage des zones stagnantes, traitement fongicide positionné avant l'installation de la maladie."
+    },
+    {
+     "nom": "Noctuelles",
+     "latin": "Agrotis, Spodoptera spp.",
+     "symptomes": "Plaques de gazon rasées ou arrachées qui s'étendent de jour en jour, chenilles grises enroulées dans les premiers centimètres de sol, oiseaux qui piquent activement la pelouse.",
+     "traitement": "Traitement appliqué en soirée, les chenilles étant nocturnes, à base de Bacillus thuringiensis ou de nématodes entomopathogènes, sur sol préalablement arrosé pour faire remonter les larves."
+    },
+    {
+     "nom": "Larves de hanneton et tipules",
+     "latin": "Melolontha, Tipula spp.",
+     "symptomes": "Gazon qui se soulève en plaques sans racines, jaunissements diffus qui résistent à l'arrosage, larves blanches recourbées en C sous le feutre.",
+     "traitement": "Application de nématodes (Heterorhabditis, Steinernema) sur sol humide et encore tempéré, en fin d'été ou en automne, puis regarnissage des zones détruites."
+    }
+   ]
+  },
+  {
+   "id": "oliviers",
+   "num": "03",
+   "bg": "#182720",
+   "title": "Traitement des oliviers et arbres méditerranéens",
+   "imgId": "tr-oliviers",
+   "img": "uploads/644438731_26499440366329120_4747082574501618576_n.jpg",
+   "imgLabel": "Photo : olivier taillé et entretenu",
+   "intro": "L'olivier supporte la sécheresse mais pas l'abandon sanitaire : mouche de l'olive, œil de paon, cochenille noire et teigne réduisent la récolte, salissent le feuillage et affaiblissent durablement l'arbre. La plupart de ces problèmes se règlent par un calendrier de surveillance plutôt que par des traitements répétés.",
+   "intro2": "Nous traitons également les autres essences emblématiques de la région et leurs ravageurs spécifiques : processionnaire du pin, pyrale du buis, cochenilles et pucerons des agrumes, chancres et dépérissements du cyprès et du platane.",
+   "items": [
+    {
+     "nom": "Mouche de l'olive",
+     "latin": "Bactrocera oleae",
+     "symptomes": "Piqûres brunes sur les olives, galeries dans la pulpe, chute prématurée des fruits, huile de qualité dégradée et acidité élevée.",
+     "traitement": "Pose de pièges et suivi des vols dès le durcissement du noyau en début d'été, applications positionnées sur les premiers vols, barrière d'argile kaolinite, ramassage des olives tombées."
+    },
+    {
+     "nom": "Œil de paon",
+     "latin": "Fusicladium oleagineum",
+     "symptomes": "Taches circulaires vert sombre puis brunes cerclées de jaune sur les feuilles, défoliation qui progresse du bas de l'arbre vers le haut, rameaux dénudés et récolte en baisse.",
+     "traitement": "Traitement cuprique à l'automne et en fin d'hiver, taille d'aération de la frondaison pour faire baisser l'humidité intérieure, évacuation des feuilles tombées."
+    },
+    {
+     "nom": "Cochenille noire",
+     "latin": "Saissetia oleae",
+     "symptomes": "Boucliers noirs en forme de H sur les rameaux, miellat collant sur le feuillage puis fumagine noire qui bloque la photosynthèse, fourmis nombreuses sur l'arbre.",
+     "traitement": "Huile de paraffine ou savon insecticide appliqué au stade larvaire mobile, taille d'éclaircie pour aérer l'intérieur de l'arbre, lavage du miellat et de la fumagine."
+    },
+    {
+     "nom": "Teigne de l'olivier",
+     "latin": "Prays oleae",
+     "symptomes": "Galeries dans l'épaisseur des feuilles, chute des fleurs au printemps, olives perforées au niveau du pédoncule et chute des fruits en été.",
+     "traitement": "Traitement au Bacillus thuringiensis positionné sur la génération florale, puis surveillance de la génération sur fruits."
+    },
+    {
+     "nom": "Processionnaire du pin",
+     "latin": "Thaumetopoea pityocampa",
+     "symptomes": "Nids soyeux blancs accrochés aux branches, aiguilles dévorées et rameaux dénudés, processions de chenilles au sol au printemps — poils urticants dangereux pour les personnes et les animaux.",
+     "traitement": "Échenillage et destruction des nids en période froide, pose d'écopièges à collerette sur le tronc, traitement au Bacillus thuringiensis à l'automne sur jeunes chenilles."
+    },
+    {
+     "nom": "Pyrale du buis",
+     "latin": "Cydalima perspectalis",
+     "symptomes": "Buis défeuillés en quelques jours, toiles et déjections vertes dans le feuillage, chenilles vert clair à tête noire, écorce rongée sur les sujets âgés.",
+     "traitement": "Traitement au Bacillus thuringiensis dès les premières chenilles et renouvelé à chaque génération, pièges à phéromones pour suivre les vols, taille de régénération des sujets atteints."
+    }
+   ]
+  }
+ ],
+ "etapes": [
+  {
+   "num": "01",
+   "titre": "Diagnostic sur place",
+   "texte": "Identification du ravageur ou de la maladie, examen du sol, du drainage et des pratiques d'arrosage et de tonte. C'est l'étape qui évite un traitement inutile."
+  },
+  {
+   "num": "02",
+   "titre": "Protocole écrit",
+   "texte": "Produit retenu, dosage, période d'application, nombre de passages et précautions à respecter : tout figure sur le devis, sans surprise."
+  },
+  {
+   "num": "03",
+   "titre": "Intervention",
+   "texte": "Matériel adapté à chaque cas — traitement de couronne en hauteur, application de nématodes, pulvérisation localisée — avec signalisation et respect des délais de rentrée."
+  },
+  {
+   "num": "04",
+   "titre": "Suivi et prévention",
+   "texte": "Contrôle de l'efficacité, second passage si nécessaire, puis calendrier annuel de prévention pour les végétaux sensibles comme les palmiers."
+  }
+ ]
+}
