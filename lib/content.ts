@@ -203,6 +203,13 @@ export const faq = catalogJson.FAQ as FaqItem[];
  * (Sahm Jardins). Les textes sont conservés mot pour mot : on n'en corrige ni
  * l'orthographe ni la ponctuation, ce sont des citations.
  *
+ * Sélection : sur les 33 avis de la fiche, on ne publie que les 4 et 5 étoiles
+ * accompagnés d'un commentaire, soit 19. Sont donc écartés les 2 avis 1 étoile,
+ * l'avis 3 étoiles et les 11 notes sans texte (inexploitables en citation).
+ * `reviewSource.ratingValue` reste la moyenne officielle des 33 notes : c'est
+ * volontaire, on n'affiche pas une moyenne recalculée sur la sélection, ce qui
+ * serait trompeur.
+ *
  * Volontairement PAS de balisage `Review`/`AggregateRating` : Google interdit
  * le balisage d'avis « auto-promotionnels » pour LocalBusiness, y compris la
  * republication d'avis tiers sur son propre site. On les affiche donc en clair,
