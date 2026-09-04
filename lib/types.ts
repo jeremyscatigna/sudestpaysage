@@ -136,3 +136,28 @@ export interface DocPage {
   metaTitle: string;
   metaDesc: string;
 }
+
+export interface Review {
+  author: string;
+  /** Ville du client, absente sur les avis les plus anciens. */
+  city: string | null;
+  rating: number;
+  /** Date ISO (AAAA-MM-JJ). */
+  date: string;
+  dateFr: string;
+  /** Nature du chantier telle que renseignée par le client. */
+  work: string | null;
+  /** Texte de l'avis, conservé mot pour mot (typographie d'origine incluse). */
+  text: string;
+  /** Sélectionné pour la page d'accueil. */
+  featured: boolean;
+}
+
+export interface ReviewSource {
+  name: string;
+  url: string;
+  /** Ancien nom de l'entreprise sous lequel les avis ont été recueillis. */
+  formerName: string;
+  ratingValue: number;
+  ratingCount: number;
+}

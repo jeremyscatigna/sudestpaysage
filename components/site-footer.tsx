@@ -75,6 +75,14 @@ export function SiteFooter() {
                 Toutes les villes
               </Link>
             </li>
+            <li>
+              <Link
+                href="/avis"
+                className="text-sm text-sage-600 transition-colors hover:text-gold"
+              >
+                Avis clients
+              </Link>
+            </li>
           </ul>
         </div>
 

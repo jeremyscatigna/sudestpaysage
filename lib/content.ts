@@ -9,6 +9,7 @@ import blogJson from "@/content/blog.json";
 import catalogJson from "@/content/catalog.json";
 import citiesJson from "@/content/cities.json";
 import homeJson from "@/content/home.json";
+import reviewsJson from "@/content/reviews.json";
 import serviceCitiesJson from "@/content/service-cities.json";
 import staticJson from "@/content/static.json";
 import treatmentBlocksJson from "@/content/treatment-blocks.json";
@@ -23,7 +24,8 @@ import type {
   GalleryItem,
   Service,
   ServiceCityPage,
-  Testimonial,
+  Review,
+  ReviewSource,
   TreatmentBlock,
   TreatmentStep,
 } from "./types";
@@ -190,10 +192,33 @@ export const gallery: GalleryItem[] = (catalogJson.GALLERY as GalleryItem[]).map
   img: asPublicPath(g.img),
 }));
 
-export const testimonials = catalogJson.AVIS as Testimonial[];
 export const badges = catalogJson.BADGES as Badge[];
 export const citiesPreview = catalogJson.VILLES_APERCU as string[];
 export const faq = catalogJson.FAQ as FaqItem[];
+
+/* --------------------------------------------------------------------- avis */
+
+/**
+ * Avis clients recueillis sur Travaux.com sous l'ancien nom de l'entreprise
+ * (Sahm Jardins). Les textes sont conservés mot pour mot : on n'en corrige ni
+ * l'orthographe ni la ponctuation, ce sont des citations.
+ *
+ * Volontairement PAS de balisage `Review`/`AggregateRating` : Google interdit
+ * le balisage d'avis « auto-promotionnels » pour LocalBusiness, y compris la
+ * republication d'avis tiers sur son propre site. On les affiche donc en clair,
+ * avec un lien vers la source.
+ */
+export const reviewSource = reviewsJson.source as ReviewSource;
+
+export const reviews: Review[] = reviewsJson.items as Review[];
+
+export const featuredReviews: Review[] = reviews.filter((r) => r.featured);
+
+/** Note formatée à la française (virgule décimale), sans dépendre de l'ICU. */
+export function formatRating(value: number): string {
+  return value.toFixed(1).replace(".", ",");
+}
+
 
 /* ------------------------------------------------------- traitement (page dédiée) */
 

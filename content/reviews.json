@@ -1,0 +1,211 @@
+{
+ "source": {
+  "name": "Travaux.com",
+  "url": "https://www.travaux.com/professionnel/sahm-jardins/reviews",
+  "formerName": "Sahm Jardins",
+  "ratingValue": 4.6,
+  "ratingCount": 33
+ },
+ "items": [
+  {
+   "author": "Gilbert F.",
+   "city": "Nice",
+   "rating": 5,
+   "date": "2025-12-14",
+   "dateFr": "14 décembre 2025",
+   "work": "Elagage: 1 arbre; Tailler les arbres",
+   "text": "Très satisfait du résultat. Entreprise réactive devis compétitif Bref un grand merci je recommande",
+   "featured": true
+  },
+  {
+   "author": "Lemmens",
+   "city": "Saint-Jeannet",
+   "rating": 5,
+   "date": "2025-06-24",
+   "dateFr": "24 juin 2025",
+   "work": "Elagage: Débroussailler sommairement",
+   "text": "Magnifique travail ,artisan très à l écoute et dévoué dans son travail . Jimmy a tout mis en œuvre pour nous satisfaire. Un grand merci à lui",
+   "featured": true
+  },
+  {
+   "author": "Client Travaux.com",
+   "city": "Colomars",
+   "rating": 3,
+   "date": "2025-03-22",
+   "dateFr": "22 mars 2025",
+   "work": "Elagage: 6 arbres; Tailler les arbres",
+   "text": "Bon travail mais nettoyage pas top",
+   "featured": false
+  },
+  {
+   "author": "Véronique",
+   "city": "Nice",
+   "rating": 5,
+   "date": "2025-02-17",
+   "dateFr": "17 février 2025",
+   "work": "Elagage: 1 arbre; Enlever arbres",
+   "text": "Très bien passé, équipe tres professionnel. ( du a la complexité... Du terrain etc ... et très agréable. Je recommande vivement .",
+   "featured": false
+  },
+  {
+   "author": "Coenraad N.",
+   "city": "Cap d'Antibes",
+   "rating": 5,
+   "date": "2025-01-22",
+   "dateFr": "22 janvier 2025",
+   "work": "Elagage: 1 arbre; Tailler les arbres",
+   "text": "Taille d’une branche d’arbre a 15 mètres d’hauteur",
+   "featured": false
+  },
+  {
+   "author": "Client Travaux.com",
+   "city": "Vallauris",
+   "rating": 5,
+   "date": "2024-08-01",
+   "dateFr": "1 août 2024",
+   "work": "Elagage: 1 arbre; Enlever arbres",
+   "text": "TRES BIEN AUCUN SOUCIS AVEC CETTE ENTREPRISE",
+   "featured": false
+  },
+  {
+   "author": "Union des Terrasses du Soleil",
+   "city": "Nice",
+   "rating": 5,
+   "date": "2024-06-07",
+   "dateFr": "7 juin 2024",
+   "work": "Elagage: 1 arbre; Tailler les arbres",
+   "text": "Rapide efficace et très sérieux, je recommande",
+   "featured": false
+  },
+  {
+   "author": "Irina",
+   "city": "Nice",
+   "rating": 5,
+   "date": "2023-11-19",
+   "dateFr": "19 novembre 2023",
+   "work": "Elagage : Enlever arbres",
+   "text": "Je suis très content du travail, je vous appelle chaque année",
+   "featured": false
+  },
+  {
+   "author": "Patrick",
+   "city": "Mandelieu-la-Napoule",
+   "rating": 5,
+   "date": "2023-09-02",
+   "dateFr": "2 septembre 2023",
+   "work": "Elagage: 1 arbre; Enlever arbres",
+   "text": "Très bon travail réalisé rapidement et avec efficacité malgre la chaleur,très satisfait de la prestation faite. un autre travail à été réalisé toujours aussi efficace et rapide pour abattre un eucalyptus avec une équipe très sympathique 😜",
+   "featured": true
+  },
+  {
+   "author": "Yves",
+   "city": "Valbonne",
+   "rating": 5,
+   "date": "2022-09-28",
+   "dateFr": "28 septembre 2022",
+   "work": "Elagage: 2 arbres; Enlever arbres",
+   "text": "Très bon travail,rapide et très propre A recommander en plus très agréable contact",
+   "featured": false
+  },
+  {
+   "author": "Brian",
+   "city": "Beausoleil",
+   "rating": 5,
+   "date": "2022-06-15",
+   "dateFr": "15 juin 2022",
+   "work": "Elagage",
+   "text": "Bien content d'avoir trouvé cette entreprise efficace et sympa",
+   "featured": false
+  },
+  {
+   "author": "Alain",
+   "city": "Biot",
+   "rating": 5,
+   "date": "2021-10-19",
+   "dateFr": "19 octobre 2021",
+   "work": "Elagage: 1 arbre; Elaguer arbres",
+   "text": "équipe serieuse bon travail et ponctuel",
+   "featured": false
+  },
+  {
+   "author": "Client Travaux.com",
+   "city": "Roquefort-les-Pins",
+   "rating": 5,
+   "date": "2021-09-06",
+   "dateFr": "6 septembre 2021",
+   "work": "Elagage: 1 arbre; Elaguer arbres",
+   "text": "Une équipe sympathique et efficace, à l'écoute du client. Le prix est compétitif. Je recommande vivement.",
+   "featured": true
+  },
+  {
+   "author": "Guy",
+   "city": "La Roquette-sur-Siagne",
+   "rating": 5,
+   "date": "2021-08-31",
+   "dateFr": "31 août 2021",
+   "work": "Elagage",
+   "text": "Travail fait avec professionnalisme et sérieux. Je les recommande sans hésitation !",
+   "featured": false
+  },
+  {
+   "author": "Simone",
+   "city": "Le Plan-de-Grasse",
+   "rating": 5,
+   "date": "2020-10-20",
+   "dateFr": "20 octobre 2020",
+   "work": "Elagage : taille de 3 Chaines et un arbre fruitier",
+   "text": "Rien a dire au plaisir de retravailler avec Sahm Jardin . Laisse le chantier propre , est agréable et à l'écoute",
+   "featured": false
+  },
+  {
+   "author": "Catherine",
+   "city": "Biot",
+   "rating": 5,
+   "date": "2020-08-02",
+   "dateFr": "2 août 2020",
+   "work": "Elagage : Enlever arbres, Déchets verts",
+   "text": "Je recommande!",
+   "featured": false
+  },
+  {
+   "author": "Brita",
+   "city": "Juan-les-Pins",
+   "rating": 5,
+   "date": "2019-11-14",
+   "dateFr": "14 novembre 2019",
+   "work": "Elagage: 2 arbres; Elaguer arbres",
+   "text": "Travail efficace et beau, Prix imbattable et l'endroit était plus propre que avant ! Je peux recommander !!!! 😉",
+   "featured": true
+  },
+  {
+   "author": "Maurice R.",
+   "city": null,
+   "rating": 5,
+   "date": "2019-02-12",
+   "dateFr": "12 février 2019",
+   "work": null,
+   "text": "Élagage d'un gros chêne Entreprise très professionnelle, donne des conseils sur l'élagage qu'il va effectuer. Tés propre laisse le terrain mieux que lorsqu'il est arrivé. Très correct pour le tarif. Je le recommande car je connais le métier vu mon grand Age je l'ai fait venir et il travaille même mieux que moi. Continuez vous avez une belle profession.",
+   "featured": true
+  },
+  {
+   "author": "Manceau B.",
+   "city": null,
+   "rating": 5,
+   "date": "2018-12-13",
+   "dateFr": "13 décembre 2018",
+   "work": null,
+   "text": "abattage palmier environ 5 m de haut Il ne reste que le tronc Réponde rapide",
+   "featured": false
+  },
+  {
+   "author": "Thiemonge L.",
+   "city": null,
+   "rating": 4,
+   "date": "2018-03-13",
+   "dateFr": "13 mars 2018",
+   "work": null,
+   "text": "raccourcir arbres (cyprés) en cloture bien !",
+   "featured": false
+  }
+ ]
+}

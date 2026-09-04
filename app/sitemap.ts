@@ -3,8 +3,8 @@
  *
  * Intégralement dérivé de `lib/content.ts` : aucune liste d'URL n'est écrite en
  * dur, donc ajouter une ville, un service ou un article suffit à mettre le
- * sitemap à jour. Total attendu : 160 URL
- * (1 accueil + services + secteurs + contact + traitement + blog
+ * sitemap à jour. Total attendu : 161 URL
+ * (1 accueil + services + secteurs + contact + traitement + avis + blog
  *  + 26 articles + 21 villes + 105 service × ville + 2 pages légales).
  */
 import type { MetadataRoute } from "next";
@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry("/secteurs", 0.9, "monthly"),
     entry("/contact", 0.9, "monthly"),
     entry("/traitement-phytosanitaire", 0.9, "monthly"),
+    entry("/avis", 0.8, "monthly"),
 
     // Blog : l'index bouge à chaque publication, les articles peu après.
     entry("/blog", 0.8, "weekly"),

@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { JsonLd } from "@/components/json-ld";
 import { Photo, cleanAlt } from "@/components/photo";
+import { ReviewCard } from "@/components/review-card";
 import {
   ButtonLink,
   ChipLink,
@@ -21,9 +22,12 @@ import {
   home,
   postHref,
   posts,
+  featuredReviews,
+  formatRating,
+  reviewSource,
+  reviews,
   serviceHref,
   services,
-  testimonials,
 } from "@/lib/content";
 import { pageMetadata } from "@/lib/metadata";
 import { websiteSchema } from "@/lib/schema";
@@ -196,26 +200,29 @@ export default function HomePage() {
         <Eyebrow tone="ink" className="text-center">
           {sections.avisEyebrow}
         </Eyebrow>
-        <SectionTitle className="mb-12 text-center">{sections.avisH2}</SectionTitle>
-        <ul className="grid gap-6 lg:grid-cols-3">
-          {testimonials.map((t) => (
-            <li
-              key={t.nom}
-              className="flex flex-col gap-4 rounded-sm bg-white px-7 py-8"
-            >
-              <div aria-label="Note : 5 sur 5" className="text-[17px] tracking-[3px] text-gold-dark">
-                <span aria-hidden="true">★★★★★</span>
-              </div>
-              <blockquote className="text-[15px] leading-[1.75] text-ink-700 italic">
-                {t.texte}
-              </blockquote>
-              <footer className="flex flex-col gap-0.5">
-                <span className="text-sm font-semibold text-ink-900">{t.nom}</span>
-                <span className="text-[13px] text-ink-600">{t.ville}</span>
-              </footer>
+        <SectionTitle className="mb-4 text-center">{sections.avisH2}</SectionTitle>
+        <p className="mx-auto mb-12 max-w-2xl text-center text-[15px] text-ink-600">
+          <strong className="font-semibold text-ink-900">
+            {formatRating(reviewSource.ratingValue)}/5
+          </strong>{" "}
+          sur {reviewSource.ratingCount} avis publiés sur {reviewSource.name}, recueillis sous notre
+          ancien nom {reviewSource.formerName}.
+        </p>
+        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredReviews.map((review, i) => (
+            <li key={`${review.author}-${review.date}-${i}`}>
+              <ReviewCard review={review} tone="light" />
             </li>
           ))}
         </ul>
+        <div className="mt-10 text-center">
+          <Link
+            href="/avis"
+            className="inline-block border-b-2 border-ink-900 pb-1 text-[15px] font-semibold"
+          >
+            Lire les {reviews.length} avis clients →
+          </Link>
+        </div>
         <ul className="mt-14 flex flex-wrap justify-center gap-8 border-t border-ink-900/12 pt-12 lg:gap-16">
           {badges.map((b) => (
             <li key={b.titre} className="flex min-w-37.5 flex-col items-center gap-2">
