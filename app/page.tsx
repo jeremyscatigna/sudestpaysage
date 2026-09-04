@@ -23,8 +23,6 @@ import {
   postHref,
   posts,
   featuredReviews,
-  formatRating,
-  reviewSource,
   reviews,
   serviceHref,
   services,
@@ -200,14 +198,7 @@ export default function HomePage() {
         <Eyebrow tone="ink" className="text-center">
           {sections.avisEyebrow}
         </Eyebrow>
-        <SectionTitle className="mb-4 text-center">{sections.avisH2}</SectionTitle>
-        <p className="mx-auto mb-12 max-w-2xl text-center text-[15px] text-ink-600">
-          <strong className="font-semibold text-ink-900">
-            {formatRating(reviewSource.ratingValue)}/5
-          </strong>{" "}
-          sur {reviewSource.ratingCount} avis publiés sur {reviewSource.name}, recueillis sous notre
-          ancien nom {reviewSource.formerName}.
-        </p>
+        <SectionTitle className="mb-12 text-center">{sections.avisH2}</SectionTitle>
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {featuredReviews.map((review, i) => (
             <li key={`${review.author}-${review.date}-${i}`}>

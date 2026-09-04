@@ -13,7 +13,7 @@ export const metadata = pageMetadata({
 });
 
 export default function ReviewsPage() {
-  const { ratingValue, ratingCount, name, url, formerName } = reviewSource;
+  const { ratingValue, ratingCount, name } = reviewSource;
 
   return (
     <>
@@ -33,15 +33,7 @@ export default function ReviewsPage() {
           </p>
           <p className="text-[15px] text-sage-500">
             Moyenne sur <strong className="font-semibold text-sage-100">{ratingCount} avis</strong>{" "}
-            publiés sur{" "}
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener nofollow"
-              className="text-gold underline underline-offset-4"
-            >
-              {name}
-            </a>
+            publiés sur <span className="text-gold">{name}</span>
           </p>
         </div>
 
@@ -58,18 +50,7 @@ export default function ReviewsPage() {
             </li>
           ))}
         </ul>
-        <p className="mt-10 text-[13px] text-ink-600">
-          Source :{" "}
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener nofollow"
-            className="underline underline-offset-4"
-          >
-            fiche {formerName} sur {name}
-          </a>
-          .
-        </p>
+        <p className="mt-10 text-[13px] text-ink-600">Source : avis publiés sur {name}.</p>
       </Section>
 
       <CtaBand

@@ -154,10 +154,8 @@ export interface Review {
 }
 
 export interface ReviewSource {
+  /** Plateforme sur laquelle les avis ont été recueillis. */
   name: string;
-  url: string;
-  /** Ancien nom de l'entreprise sous lequel les avis ont été recueillis. */
-  formerName: string;
   ratingValue: number;
   ratingCount: number;
 }

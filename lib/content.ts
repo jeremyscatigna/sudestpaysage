@@ -199,13 +199,15 @@ export const faq = catalogJson.FAQ as FaqItem[];
 /* --------------------------------------------------------------------- avis */
 
 /**
- * Avis clients recueillis sur Travaux.com sous l'ancien nom de l'entreprise
- * (Sahm Jardins). Les textes sont conservés mot pour mot : on n'en corrige ni
+ * Avis clients recueillis sur Travaux.com sous l'ancienne enseigne de
+ * l'entreprise. Les textes sont conservés mot pour mot : on n'en corrige ni
  * l'orthographe ni la ponctuation, ce sont des citations.
  *
  * Sélection : sur les 33 avis de la fiche, on ne publie que les 4 et 5 étoiles
- * accompagnés d'un commentaire, soit 19. Sont donc écartés les 2 avis 1 étoile,
- * l'avis 3 étoiles et les 11 notes sans texte (inexploitables en citation).
+ * accompagnés d'un commentaire, soit 18. Sont écartés les 2 avis 1 étoile,
+ * l'avis 3 étoiles, les 11 notes sans texte (inexploitables en citation) et un
+ * avis dont le texte citait l'ancienne enseigne — une citation ne se réécrit
+ * pas, l'avis a donc été retiré plutôt que retouché.
  * `reviewSource.ratingValue` reste la moyenne officielle des 33 notes : c'est
  * volontaire, on n'affiche pas une moyenne recalculée sur la sélection, ce qui
  * serait trompeur.
