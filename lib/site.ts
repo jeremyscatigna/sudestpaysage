@@ -14,6 +14,8 @@ export const site = {
   locale: "fr_FR",
   lang: "fr",
   ogImage: "/og-image.jpg",
+  /** Identifiant de mesure Google Analytics 4. Public : il part au navigateur. */
+  gaId: "G-3J7FBQ80SM",
 } as const;
 
 /** Navigation principale. */

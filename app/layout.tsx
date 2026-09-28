@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Work_Sans } from "next/font/google";
 
+import { Analytics } from "@/components/analytics";
 import { CallButton } from "@/components/call-button";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -84,6 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteFooter />
         <CallButton />
         <JsonLd data={localBusinessSchema()} />
+        <Analytics />
       </body>
     </html>
   );
